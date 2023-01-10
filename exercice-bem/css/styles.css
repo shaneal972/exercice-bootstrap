@@ -1,0 +1,153 @@
+html {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 992px;
+    margin: 0 auto;
+    border: 0.3px solid rgb(69, 69, 69);
+}
+
+/* Header */
+.header__entete {
+    background: rgb(54, 54, 54);
+    height: 85px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header__titre {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    background: rgb(202, 201, 201);
+    height: 40px;
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.menu__item {
+    margin-left: 40px;
+}
+
+.menu__item a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+/* Main */
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 775px;
+    border-right: 0.3px solid rgb(69, 69, 69);
+}
+
+.left__ariane {
+    color: #aaa;
+    font-size: 0.7rem;
+    padding: 20px 0 20px 5px;
+}
+
+.left__h2 {
+    display: flex;
+    color: rgb(114, 114, 114);
+    background: rgb(227, 226, 226);
+    height: 30px;
+    line-height: 30px;
+    border-top: 0.3px solid rgb(78, 78, 78);
+    border-bottom: 0.3px solid rgb(78, 78, 78);
+}
+
+/* .left__h2-puce {
+    display: block;
+    width: 30px;
+    height: 100%;
+    background: #000;
+    margin-right: 15px;
+} */
+
+.right {
+    width: 190px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+h2::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 100%;
+    background: #000;
+    margin-right: 15px;
+
+}
+
+/* Main article */
+.left__item {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.texte {
+    width: 70%;
+}
+
+.texte__link {
+    margin-top: 20px;
+}
+
+.texte__link a {
+    color: rgb(238, 25, 100);
+}
+
+.texte__link a:hover {
+    color: rgb(172, 172, 172);
+}
+
+/* Right */
+.right__product {
+    width: 170px;
+    margin-bottom: 15px;
+    background: rgb(160, 160, 160);
+}
+
+.right__h2 {
+    font-size: 1.7rem;
+    padding: 5px;
+}
+
+.right__h3 {
+    font-size: 1.3rem;
+    padding: 0 5px 5px 5px;
+    color: #fff;
+}
+
+.footer__mentions {
+    height: 30px;
+    padding: 20px 0 20px 40px;
+    background: #aaa;
+    line-height: 2px;
+}
+
+.footer__mentions a {
+    color: #fff;
+}
+
